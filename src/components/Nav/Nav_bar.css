@@ -1,0 +1,48 @@
+.nav-bar{
+  color: white;
+  display: flex;
+  background-color: #5F6CAF;
+  height: 45px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 15%;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input{
+  background-color: aliceblue;
+  border-radius: 5px;
+  height: 0px;
+  min-height: -10px;
+  width: 300px;
+  padding-left: 5px;
+}
+
+.PrivateNotchedOutline-root-1.MuiOutlinedInput-notchedOutline{
+  height: 41px;
+}
+
+.search-button{
+  width: 48px;
+  height: 37px;
+  margin-left: -14px;
+  margin-right: -15px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(68, 68, 68);
+}

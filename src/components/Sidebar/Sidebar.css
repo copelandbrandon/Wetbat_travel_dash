@@ -1,0 +1,32 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(220, 220, 220);
+  color: #5f6caf;
+  width: 150px;
+  height: 750px;
+  justify-content: space-evenly;
+  font-weight: bold;
+  align-items: center;
+}
+
+hr.solid{
+  border: 1px solid rgb(182, 182, 182);
+  height: 0px;
+  width: 148px;
+}
+
+.footer{
+  display: flex;
+  color:darkgray;
+  font-size: small;
+  padding-left: 8px;
+  font-weight: normal;
+}
+
+span{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+}
