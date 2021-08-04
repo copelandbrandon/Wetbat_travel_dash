@@ -1,0 +1,39 @@
+.widget{
+  background-image: linear-gradient(to right, #5bbfba, #5f6caf);
+  border-radius: 5px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 15px;
+  width: 90%;
+  margin-top: 35px;
+  margin-left:150px;
+}
+
+.widget-left{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 16pt;
+}
+
+.title{
+  font-size: 26pt;
+  font-weight: bolder;
+}
+
+.image{
+  width: 500px;
+}
+
+.widget-right{
+  display: flex;
+  flex-direction: column;
+}
+
+b.value-number{
+  color: rgb(242, 242, 121);
+  text-shadow: rgb(106, 106, 106) 1px 1px 3px;
+  font-size: 30pt;
+}

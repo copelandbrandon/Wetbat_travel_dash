@@ -8,6 +8,9 @@
   justify-content: space-evenly;
   font-weight: bold;
   align-items: center;
+  position: fixed;
+  left: 0px;
+  top: 65px;
 }
 
 hr.solid{
