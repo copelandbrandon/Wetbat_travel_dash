@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS contact_info CASCADE;
 DROP TABLE IF EXISTS transportation_options CASCADE;
 DROP TABLE IF EXISTS flights CASCADE;
-DROP TABLE IF EXISTS qoutes CASCADE;
+DROP TABLE IF EXISTS quotes CASCADE;
 
 CREATE TABLE contact_info(
   id SERIAL PRIMARY KEY,
@@ -24,11 +24,10 @@ CREATE TABLE flights(
   number_of_travellers INTEGER NOT NULL
 );
 
-CREATE TABLE qoutes(
+CREATE TABLE quotes(
   id SERIAL PRIMARY KEY,
   contact_id INTEGER REFERENCES contact_info(id) ON DELETE CASCADE NOT NULL,
   transportation_id INTEGER REFERENCES transportation_options(id) ON DELETE CASCADE NOT NULL,
-  flight_to INTEGER REFERENCES flights(id) ON DELETE CASCADE NOT NULL,
-  flight_from INTEGER REFERENCES flights(id) ON DELETE CASCADE NOT NULL,
+  flight_id INTEGER REFERENCES flights(id) ON DELETE CASCADE NOT NULL,
   quoted_price INTEGER NOT NULL
 );

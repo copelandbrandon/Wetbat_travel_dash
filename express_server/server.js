@@ -1,22 +1,26 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const port = process.env.DB_PORT;
+const port = 8080;
 require("dotenv").config();
-const Pool = require('pg').Pool;
-const pool = new Pool({
-  user: process.env.DB_USER,
-  host: process.env.DB_HOST,
-  database: process.env.DB_NAME,
-  password: process.env.DB_PASSWORD,
-  port: port
-});
-
+const {Pool} = require('pg');
+const dbParams = require('./lib/db.js');
+const db = new Pool(dbParams);
+console.log(dbParams);
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
+// db.connect();
 
 app.get('/', (req, res) => {
-  res.json({info: "this is a page"})
+  res.json({info: 'this is the home page'})
+})
+
+app.get('/quotes', (req, res) => {
+  return db.query('SELECT * FROM quotes;')
+    .then((data) => {
+      res.json(data.rows);
+    })
+    .catch(err => res.status(500).json({error: err.message}));
 });
 
 app.listen(port, () => {
