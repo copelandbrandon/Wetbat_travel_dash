@@ -1,0 +1,10 @@
+.quote-list-item{
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+td{
+  display: table-cell;
+  text-align: center;
+}
