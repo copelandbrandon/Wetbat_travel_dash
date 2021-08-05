@@ -1,0 +1,46 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 10px;
+}
+
+.MuiSelect-root.MuiSelect-select{
+  width: 100px;
+}
+
+.MuiInputBase-input.MuiFilledInput-input{
+  width: 150px;
+}
+
+.whole-form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(214, 214, 214);
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.form-title{
+  color: #5f6caf;
+  font-size: 26pt;
+  font-weight: bolder;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.create-btn{
+  background-color: #5bbfba;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  font-weight: bold;
+}

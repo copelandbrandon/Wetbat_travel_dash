@@ -1,0 +1,69 @@
+.single-title{
+  display: flex;
+  margin-left: 100px;
+  border-bottom: 2px solid rgb(214, 214, 214);
+  width: 90%;
+  justify-content: center;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  color: #5f6caf;
+  font-size: 26pt;
+  font-weight: bolder;
+}
+
+.all-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 450px;
+  align-items: center;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  height: 30%;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.flight-info{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  height: 45%;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  height: 25%;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid rgb(215, 215, 215);
+}
+
+tr{
+  margin-bottom: 10px;
+}
+
+th.sub-title{
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #5f6caf;
+  width: 100%;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
