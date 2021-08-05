@@ -1,0 +1,36 @@
+table{
+  border-top: 1px solid rgb(53, 53, 53);
+  width: 500px;
+}
+.table-head{
+  height: 30px;
+}
+.MuiPaper-root{
+  width: 530px;
+  display: flex;
+  justify-content: center;
+}
+.quote-widget{
+  display: flex;
+  color: #5f6caf;
+  font-size: 20pt;
+  font-weight: bolder;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+.MuiSvgIcon-root.left-icon{
+  color: #5bbfba
+}
+
+.left-header{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-icons{
+  display: flex;
+  justify-content: flex-end;
+  color: grey;
+  margin-right: 20px;
+}
