@@ -43,3 +43,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.upper-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lower-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  width: 2000px;
+  margin-bottom: 20px;
+}

@@ -1,7 +1,7 @@
 .widget{
   background-image: linear-gradient(to right, #5bbfba, #5f6caf);
   border-radius: 5px;
-  height: 450px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   color: white;
@@ -9,6 +9,8 @@
   width: 90%;
   margin-top: 35px;
   margin-left:150px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .widget-left{

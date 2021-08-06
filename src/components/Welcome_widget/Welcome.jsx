@@ -20,9 +20,9 @@ export default function Welcome(props) {
       <span className="widget-right">
         <img src={image} className="image"/>
         <span className="welcome-values">
-          <p><b className="value-number">{props.newLeads}</b> NEW LEADS</p>
-          <p><b className="value-number">{props.createdQuotes}</b> QUOTES CREATED</p>
-          <p><b className="value-number">{props.pendingOrders}</b> PENDING ORDERS</p>
+          <p><b className="value-number">45</b> NEW LEADS</p>
+          <p><b className="value-number">124</b> QUOTES CREATED</p>
+          <p><b className="value-number">10</b> PENDING ORDERS</p>
         </span>
       </span>
     </div>

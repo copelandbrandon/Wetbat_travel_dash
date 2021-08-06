@@ -11,24 +11,30 @@ export default function QuoteForm(props) {
       <tr className='row'>
         <td>
         <InputLabel>Departure</InputLabel>
-        <Select variant='filled'>
+        <Select variant='filled' value="">
           <MenuItem value={'YVR'}>
           YVR
           </MenuItem>
           <MenuItem value={'YYC'}>
           YYC
+          </MenuItem>
+          <MenuItem value={'YSK'}>
+            YSK
           </MenuItem>
         </Select>
         </td>
         <td>
         <InputLabel>Destination</InputLabel>
-        <Select variant='filled'>
+        <Select variant='filled' value="">
           <MenuItem value={'YVR'}>
           YVR
           </MenuItem>
           <MenuItem value={'YYC'}>
           YYC
           </MenuItem>
+          <MenuItem value={'YSK'}>
+            YSK
+            </MenuItem>
         </Select>
         </td>
       </tr>
@@ -49,7 +55,7 @@ export default function QuoteForm(props) {
         </td>
         <td>
           <InputLabel>Transportation</InputLabel>
-          <Select variant='filled'>
+          <Select variant='filled' value="">
           <MenuItem value={1}>
           Town Car
           </MenuItem>

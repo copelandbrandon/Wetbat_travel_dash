@@ -14,7 +14,8 @@ export default function QuoteList(props) {
         id={quote.id}
         name={quote.name}
         destination={quote.destination}
-        price={quote.price}
+        price={quote.quoted_price}
+        onClick={props.onClick}
       />
     )
   })
@@ -34,9 +35,9 @@ export default function QuoteList(props) {
         <table>
           <tbody>
             <tr className='table-head'>
-              <th colspan="1">ID #</th>
-              <th colspan="1">NAME:</th>
-              <th colspan="1">DESTINATION:</th>
+              <th>ID #</th>
+              <th>NAME:</th>
+              <th>DESTINATION:</th>
               <th>PRICE:</th>
             </tr>
             {composeQuoteList}

@@ -9,6 +9,7 @@ table{
   width: 530px;
   display: flex;
   justify-content: center;
+  border: 1px solid rgb(214, 214, 214);
 }
 .quote-widget{
   display: flex;
