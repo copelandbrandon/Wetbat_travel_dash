@@ -73,3 +73,13 @@ th.sub-title{
   width: 100%;
   border-bottom: 1px solid rgb(214, 214, 214);
 }
+
+.back-btn{
+  background-color: #5bbfba;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  font-weight: bold;
+}

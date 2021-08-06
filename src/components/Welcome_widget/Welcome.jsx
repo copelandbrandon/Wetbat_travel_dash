@@ -18,7 +18,7 @@ export default function Welcome(props) {
         </p>
       </span>
       <span className="widget-right">
-        <img src={image} className="image"/>
+        <img src={image} className="image" alt='Could not display'/>
         <span className="welcome-values">
           <p><b className="value-number">45</b> NEW LEADS</p>
           <p><b className="value-number">124</b> QUOTES CREATED</p>

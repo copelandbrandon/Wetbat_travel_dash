@@ -11,6 +11,7 @@ export default function QuoteList(props) {
   const composeQuoteList = props.data.map(quote => {
     return (
       <QuoteListItem
+        key={quote.id}
         id={quote.id}
         name={quote.name}
         destination={quote.destination}

@@ -39,3 +39,9 @@ b.value-number{
   text-shadow: rgb(106, 106, 106) 1px 1px 3px;
   font-size: 30pt;
 }
+
+.welcome-values{
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}

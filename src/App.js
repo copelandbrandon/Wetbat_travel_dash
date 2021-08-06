@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Nav from "./components/Nav/Nav_bar";
 import Sidebar from "./components/Sidebar/Sidebar";
@@ -11,7 +10,6 @@ import QuoteForm from './components/Quotes/Form/QuoteForm';
 
 function App() {
   const {state, setState} = useApplicationData();
-  console.log(state);
 
   const getDetails = function(id) {
     axios.get(`/api/quote/details/${id}`)

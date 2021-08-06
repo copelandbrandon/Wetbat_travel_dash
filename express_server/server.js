@@ -8,7 +8,6 @@ const dbParams = require('./lib/db.js');
 const db = new Pool(dbParams);
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
-// db.connect();
 
 app.get('/', (req, res) => {
   res.json({info: 'this is the home page'})

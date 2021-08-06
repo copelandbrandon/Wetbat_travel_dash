@@ -28,9 +28,13 @@ hr.solid{
   font-weight: normal;
 }
 
-span{
+span.sidebar-selection{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 70%;
+  width: 99%;
+  height: 75px;
+}
+span.sidebar-selection:hover{
+  background-color: rgb(225, 223, 248);
 }

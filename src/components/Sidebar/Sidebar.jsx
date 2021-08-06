@@ -14,16 +14,16 @@ export default function Sidebar(props) {
 
   return (
     <div className="sidebar">
-      <span onClick={props.onClick}><HomeIcon/> Home</span>
-      <span onClick={props.onClick}><AttachMoneyIcon/> Quotes</span>
-      <span onClick={props.onClick}><ListAltIcon/> Leads</span>
-      <span onClick={props.onClick}><FlightTakeoffIcon/> Tours</span>
+      <span onClick={props.onClick} className="sidebar-selection"><HomeIcon/> Home</span>
+      <span onClick={props.onClick} className="sidebar-selection"><AttachMoneyIcon/> Quotes</span>
+      <span onClick={props.onClick} className="sidebar-selection"><ListAltIcon/> Leads</span>
+      <span onClick={props.onClick} className="sidebar-selection"><FlightTakeoffIcon/> Tours</span>
       <hr className="solid"/>
-      <span onClick={props.onClick}><InsertDriveFileIcon/> Invoices</span>
-      <span onClick={props.onClick}><TimelineIcon/> Analytics</span>
-      <span onClick={props.onClick}><GroupIcon/> Team</span>
-      <span onClick={props.onClick}><SettingsIcon/> Admin</span>
-      <span onClick={props.onClick}><HelpOutlineIcon/> Support</span>
+      <span onClick={props.onClick} className="sidebar-selection"><InsertDriveFileIcon/> Invoices</span>
+      <span onClick={props.onClick} className="sidebar-selection"><TimelineIcon/> Analytics</span>
+      <span onClick={props.onClick} className="sidebar-selection"><GroupIcon/> Team</span>
+      <span onClick={props.onClick} className="sidebar-selection"><SettingsIcon/> Admin</span>
+      <span onClick={props.onClick} className="sidebar-selection"><HelpOutlineIcon/> Support</span>
       <hr className="solid"/>
       <p className="footer">Allright received by wetbat 2020 *</p>
     </div>
