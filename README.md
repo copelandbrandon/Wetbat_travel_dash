@@ -23,7 +23,7 @@ CREATE DATABASE wetbat_travel;
 ```
 
 - Copy the .env.example inside of express_server and plug in details for your database
-  if you wish to use the same .env as I have been, use 
+  if you wish to use the same .env as I have been, use the following details:
   (
 DB_HOST=localhost
 DB_USER=vagrant
@@ -42,6 +42,8 @@ npm start
 
 # Comments
 
-- Most components are non functional and only there to more accurately depict the dashboard from the challenge document.
+- Most components are non functional and only there to more accurately depict the dashboard from the challenge document such as the quick quote form.
 
-- click on a quote within the quote list to view the details page for that quote.
+- Click on a quote within the quote list to view the details page for that quote.
+
+- I would have liked to spend more time on this project to finish functionality for the form and add a few more widgets however due to external time constraints I am submitting the challenge now with the minimum requirements having been met.
